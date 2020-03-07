@@ -46,6 +46,12 @@ namespace MyFavoriteThings
             food2.HungerStrike();
             food2.Restock();
 
+            var scheduledVacation1 = new Vacation("Long Beach Weekend Getaway", "Cayman Islands") { DaysUntil = 10 };
+            var unscheduledVacation1 = new Vacation("Travel the World - Part 1", "Greece");
+
+            scheduledVacation1.FinalCountdown();
+            unscheduledVacation1.Dreaming();
+
         }
     }
 }
