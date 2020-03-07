@@ -37,6 +37,15 @@ namespace MyFavoriteThings
             pet1.VisitVet();
             pet2.VisitVet();
 
+            var food1 = new Food("Pizza", "Dinner");
+            var food2 = new Food("Ice Cream", "Dessert");
+
+            food1.HungerStrike();
+            food1.Restock();
+
+            food2.HungerStrike();
+            food2.Restock();
+
         }
     }
 }
